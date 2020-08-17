@@ -1,1 +1,1 @@
-[!roadmap](https://github.com/Meshugah/BackendRoadmap/blob/master/backend.png)
+[!roadmap](https://github.com/Meshugah/BackendRoadmap/blob/master/backend.png?raw=true)
