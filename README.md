@@ -5,8 +5,7 @@ Security: https://expeditedsecurity.com/api-security-best-practices-megaguide/
 Aws in plain english:
 
 ### Todo
-Need to get a diagram of AWS.
-Watch a video on vpc
+Need to get a diagram of AWS with internet gateway and see how that works. 
 
 ### Things to do
 #### Internet <- you are here
@@ -24,7 +23,7 @@ Watch a video on vpc
 
 
 #### Bonus
-- AWS Security **Need to find something good**
+- AWS Security **grail** https://www.youtube.com/watch?v=-ObImxw1PmI
 - *Bonus* Networking https://www.homenethowto.com/
 - Security https://expeditedsecurity.com/api-security-best-practices-megaguide/
 - AWSinPlainEnglish  https://expeditedsecurity.com/aws-in-plain-english/
