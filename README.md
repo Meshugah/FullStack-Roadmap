@@ -5,7 +5,7 @@ Security: https://expeditedsecurity.com/api-security-best-practices-megaguide/
 Aws in plain english:
 
 ### Todo
-Need to get a diagram of AWS with internet gateway and see how that works. 
+*Empty :)*
 
 ### Things to do
 #### Internet <- you are here
@@ -27,6 +27,7 @@ Need to get a diagram of AWS with internet gateway and see how that works.
   - **Need to do** VPC core concepts: subnets and security groups
   - **Need to do** Routing basics in amazon vpc
   - **Need to do** Private connectivity basics
+  - This thing actually went over internet gateways as well! besides VPC, KMS, and IAM.
 - *Bonus* Networking https://www.homenethowto.com/
 - Security https://expeditedsecurity.com/api-security-best-practices-megaguide/
 - AWSinPlainEnglish  https://expeditedsecurity.com/aws-in-plain-english/
