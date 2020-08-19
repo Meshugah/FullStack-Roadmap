@@ -2,20 +2,18 @@
 
 ### Resources
 Security: https://expeditedsecurity.com/api-security-best-practices-megaguide/
-Aws in plain english: https://expeditedsecurity.com/aws-in-plain-english/
-- checkout waf. Ask Sanju
+Aws in plain english:
 
 ### Todo
 Need to get a diagram of AWS.
 Watch a video on vpc
 
-### Actually doing it
+### Things to do
 #### Internet <- you are here
 - Internet https://www.youtube.com/watch?v=x3c1ih2NJEg
 - HTTP https://www.youtube.com/watch?v=eesqK59rhGA
 - Browsers https://www.youtube.com/watch?v=WjDrMKZWCt0
 - DNS & Domain name https://www.youtube.com/watch?v=mpQZVYPuDGU 
-- *Bonus* Networking https://www.homenethowto.com/
 - Hosting https://www.youtube.com/watch?v=0hGK7qiQ6WA
 
 
@@ -25,3 +23,10 @@ Watch a video on vpc
 
 
 
+#### Bonus
+- AWS Security **Need to find something good**
+- *Bonus* Networking https://www.homenethowto.com/
+- Security https://expeditedsecurity.com/api-security-best-practices-megaguide/
+- AWSinPlainEnglish  https://expeditedsecurity.com/aws-in-plain-english/
+  - checkout waf
+  
