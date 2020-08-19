@@ -28,4 +28,4 @@ Need to get a diagram of AWS with internet gateway and see how that works.
 - Security https://expeditedsecurity.com/api-security-best-practices-megaguide/
 - AWSinPlainEnglish  https://expeditedsecurity.com/aws-in-plain-english/
   - checkout waf
-- find out what those old tunnel files are/did  
+- find out what those old tunnel files are/did (from oldStuff)
