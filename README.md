@@ -8,3 +8,6 @@ Aws in plain english: https://expeditedsecurity.com/aws-in-plain-english/
 ### Todo
 Need to get a diagram of AWS.
 Watch a video on vpc
+
+### The first six
+
