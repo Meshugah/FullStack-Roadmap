@@ -29,6 +29,7 @@ Aws in plain english:
   - **Need to do** Private connectivity basics
   - This thing actually went over internet gateways as well! besides VPC, KMS, and IAM.
 - *Bonus* Networking https://www.homenethowto.com/
+- Subnets https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
 - Security https://expeditedsecurity.com/api-security-best-practices-megaguide/
 - AWSinPlainEnglish  https://expeditedsecurity.com/aws-in-plain-english/
   - checkout waf
