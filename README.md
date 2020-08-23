@@ -36,4 +36,5 @@ Aws in plain english:
 - find out what those old tunnel files are/did (from oldStuff)
 - learn about message queues and use them better
 - AuthO
+- command + 1 to open project in webstorm and command + n to open a new file. 
 
