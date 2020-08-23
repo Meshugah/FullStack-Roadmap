@@ -34,3 +34,6 @@ Aws in plain english:
 - AWSinPlainEnglish  https://expeditedsecurity.com/aws-in-plain-english/
   - checkout waf
 - find out what those old tunnel files are/did (from oldStuff)
+- learn about message queues and use them better
+- AuthO
+
