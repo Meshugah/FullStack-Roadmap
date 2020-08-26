@@ -24,10 +24,8 @@ Aws in plain english:
 
 #### Bonus
 - AWS Security **grail** https://www.youtube.com/watch?v=-ObImxw1PmI
-  - **Need to do** VPC core concepts: subnets and security groups
-  - **Need to do** Routing basics in amazon vpc
-  - **Need to do** Private connectivity basics
-  - This thing actually went over internet gateways as well! besides VPC, KMS, and IAM.
+  - This thing actually went over internet gateways as well! and VPC, KMS, and IAM.
+- AWS webdev, **grail** https://www.udemy.com/course/networking-in-aws/
 - *Bonus* Networking https://www.homenethowto.com/
 - Subnets https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
 - Security https://expeditedsecurity.com/api-security-best-practices-megaguide/
@@ -37,4 +35,6 @@ Aws in plain english:
 - learn about message queues and use them better
 - AuthO
 - command + 1 to open project in webstorm and command + n to open a new file. 
-
+- JWT :
+  - https://www.youtube.com/watch?v=894seNhONF8&loop=0
+  - https://www.youtube.com/watch?v=2jqok-WgelI&loop=0
