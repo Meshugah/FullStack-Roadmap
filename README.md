@@ -3,10 +3,14 @@
 
 ## Things to do:
 #### Internet <- you are here
-- Internet https://www.youtube.com/watch?v=x3c1ih2NJEg
+- Internet https://www.youtube.com/watch?v=x3c1ih2NJEg :heavy_check_mark:
+  - protocols:
+      - TCP/IP: Transports data
+      - Http/https: Web access
+      - RTP: Live video, Streaming and VOIP
 - HTTP https://www.youtube.com/watch?v=eesqK59rhGA
 - Browsers https://www.youtube.com/watch?v=WjDrMKZWCt0
-- DNS & Domain name https://www.youtube.com/watch?v=mpQZVYPuDGU 
+- DNS & Domain name https://www.youtube.com/watch?v=mpQZVYPuDGU :heavy_check_mark:
 - Hosting https://www.youtube.com/watch?v=0hGK7qiQ6WA
 
 
