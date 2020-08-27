@@ -38,3 +38,4 @@ Aws in plain english:
 - JWT :
   - https://www.youtube.com/watch?v=894seNhONF8&loop=0
   - https://www.youtube.com/watch?v=2jqok-WgelI&loop=0
+- Watch tech interviews: https://interviewing.io/recordings/
