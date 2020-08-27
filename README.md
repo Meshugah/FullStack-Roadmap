@@ -1,13 +1,7 @@
 ![roadmap](backend.png)
 
-### Resources
-Security: https://expeditedsecurity.com/api-security-best-practices-megaguide/
-Aws in plain english:
 
-### Todo
-*Empty :)*
-
-### Things to do
+## Things to do:
 #### Internet <- you are here
 - Internet https://www.youtube.com/watch?v=x3c1ih2NJEg
 - HTTP https://www.youtube.com/watch?v=eesqK59rhGA
@@ -17,8 +11,8 @@ Aws in plain english:
 
 
 #### Basic Front End
-- HTML https://www.youtube.com/watch?v=UB1O30fR-EE
-- CSS https://www.youtube.com/watch?v=yfoY53QXEnI
+- HTML https://www.youtube.com/watch?v=UB1O30fR-EE :heavy_check_mark:
+- CSS https://www.youtube.com/watch?v=yfoY53QXEnI :heavy_check_mark:
 
 
 
@@ -36,8 +30,10 @@ Aws in plain english:
 - AuthO
 - command + 1 to open project in webstorm and command + n to open a new file. 
 - JWT :
-  - https://www.youtube.com/watch?v=894seNhONF8&loop=0
+  - :heavy_check_mark: https://www.youtube.com/watch?v=894seNhONF8&loop=0 
   - https://www.youtube.com/watch?v=2jqok-WgelI&loop=0
 - Watch tech interviews: https://interviewing.io/recordings/
 - JS runtime environment: https://medium.com/@olinations/the-javascript-runtime-environment-d58fa2e60dd0
 - JS memory model: https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239#:~:text=For%20the%20purposes%20of%20this,in%20addition%20to%20function%20calls).&text=Now%2C%20the%20heap.,where%20non%2Dprimitives%20are%20stored.
+- API Security: https://expeditedsecurity.com/api-security-best-practices-megaguide/
+
