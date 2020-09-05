@@ -57,7 +57,7 @@
 - Flexbox
   - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
   - **Grail** https://flexboxfroggy.com/
-- Responsive Design https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0
+- Responsive Design https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0  :heavy_check_mark:
 
 
 
