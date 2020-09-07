@@ -4,7 +4,10 @@
 > I'd recommend just searching for things you need here
 
 ## Things to do:
-#### Internet 
+
+Invert the damn diagram!
+
+### Internet 
 - Internet https://www.youtube.com/watch?v=x3c1ih2NJEg :heavy_check_mark:
   - protocols:
       - TCP/IP: Transports data
@@ -40,7 +43,7 @@
 - SSL https://www.youtube.com/watch?v=rROgWTfA5qE&loop=0 :heavy_check_mark:
 
 
-#### Basic Front End
+### Basic Front End
 - HTML https://www.youtube.com/watch?v=UB1O30fR-EE :heavy_check_mark:
   - Inline vs block level elements
   - < !DOCTYPE html >
@@ -61,11 +64,38 @@
   - **Grail** https://flexboxfroggy.com/ :heavy_check_mark:
 - Responsive Design https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0  :heavy_check_mark:
 
+### OS and General Knowledge
+
+- OStep, I don't know how much of it to do: https://drive.google.com/file/d/1iPD0JzZ5OSvIS03e_PkymYf4ySEeGjQX/view?usp=sharing
+    - only do the sections from the diagram
+- POSIX? 
+  - standards that ensure compatibility when moving between OSes
+  - stdin, stdout, stderr and pipes: https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
+- Unix v. Linux, neither are OSes:
+  - Unix: Solaris, BSD, MacOS
+    - an entire OS
+  - Linux: Ubuntu, fedora, debian, android
+    - just a kernel that is "distro"'d.
+- Terminal commands: 
+  - grep
+  - awk
+  - sed
+  - lsof
+  - curl
+  - wget
+  - tail
+  - head
+  - less
+  - find
+  - ssh 
+  - kill
 
 
-#### Bonus
+
+### Bonus
 - AWS Security **grail** https://www.youtube.com/watch?v=-ObImxw1PmI
   - This thing actually went over internet gateways as well! and VPC, KMS, and IAM.
+- EPI: https://drive.google.com/file/d/1xtKQE5VLdY8AUsAJDKr-dAjLcEkhv6J1/view
 - AWS webdev, **grail** https://www.udemy.com/course/networking-in-aws/
 - *Bonus* Networking https://www.homenethowto.com/
 - Subnets https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
@@ -85,3 +115,5 @@
 - API Security: https://expeditedsecurity.com/api-security-best-practices-megaguide/
 - Cookies, sessions and it not being RESTful and why you should still do it: https://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulness 
 - Alternative roadmap, this kinda includes both: https://www.youtube.com/watch?v=IFM9hbapeA0&list=PLillGF-Rfqba3xeEvDzIcUCxwMlGiewfV&loop=0
+- Regex: https://www.regular-expressions.info/quickstart.html
+
