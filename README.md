@@ -43,7 +43,7 @@
 #### Basic Front End
 - HTML https://www.youtube.com/watch?v=UB1O30fR-EE :heavy_check_mark:
   - Inline vs block level elements
-  - and <!DOCTYPE html>
+  - < !DOCTYPE html >
 - CSS https://www.youtube.com/watch?v=yfoY53QXEnI :heavy_check_mark:
   - Selector { property: value; } 
     - .class-name{ } for classes
