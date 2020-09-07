@@ -56,7 +56,8 @@
     - Margin : TRBL 
   - *advanced* Sass Course https://www.youtube.com/watch?v=IFM9hbapeA0&list=PLillGF-Rfqba3xeEvDzIcUCxwMlGiewfV&loop=0
 - Flexbox
-  - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+  - https://css-tricks.com/snippets/css/a-guide-to-flexbox/  :heavy_check_mark:
+    - Flex-flow is shorthand for flex-direction and flex-wrap
   - **Grail** https://flexboxfroggy.com/
 - Responsive Design https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0  :heavy_check_mark:
 
