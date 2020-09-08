@@ -66,29 +66,49 @@ Invert the damn diagram!
 
 ### OS and General Knowledge
 
-- OStep, I don't know how much of it to do: https://drive.google.com/file/d/1iPD0JzZ5OSvIS03e_PkymYf4ySEeGjQX/view?usp=sharing
-    - only do the sections from the diagram
-- POSIX? 
-  - standards that ensure compatibility when moving between OSes
-  - stdin, stdout, stderr and pipes: https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
-- Unix v. Linux, neither are OSes:
-  - Unix: Solaris, BSD, MacOS
-    - an entire OS
-  - Linux: Ubuntu, fedora, debian, android
-    - just a kernel that is "distro"'d.
-- Terminal commands: 
-  - grep
-  - awk
-  - sed
-  - lsof
-  - curl
-  - wget
-  - tail
-  - head
-  - less
-  - find
-  - ssh 
-  - kill
+- OStep, skim this: https://drive.google.com/file/d/1iPD0JzZ5OSvIS03e_PkymYf4ySEeGjQX/view?usp=sharing
+    - How do OSes work? Virtualization, Concurrency and Persistence  :heavy_check_mark:
+    - Process Management
+      - Process API: Create, Destroy, Stop, Start, Wait, Status.
+      - Create: Modern OSes lazy load the important bits of an EXECUTABLE program from an SSD into memory
+      - Memory Allocation in the form of a heap(user allocated, ex: malloc) and a stack(stores argc and argv array on initialization). 
+        - requires Paging and Swapping.
+      - Each process has 3 file descriptors STDERR, STDIN, STDOUT
+      - Process states: 
+        - running
+        - blocked 
+        - ready
+        ![process states](ps.png)
+      - Some OS APIs
+        - fork() - creates a parallel process of the program which it was called from
+        - wait() - let's the parent wait for the child process to finish(also provides determinism)
+        - exec() - runs a different program using the same process
+    - Threads and Concurrency
+      
+    - Memory Management
+    - Interprocess Communication
+    - I/O Management
+    - POSIX? 
+      - standards that ensure compatibility when moving between OSes
+      - stdin, stdout, stderr and pipes: https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
+      - Unix v. Linux, neither are OSes: 
+      - Unix: Solaris, BSD, MacOS
+        - an entire OS
+      - Linux: Ubuntu, fedora, debian, android
+        - just a kernel that is "distro"'d.
+    - Terminal commands: 
+      - grep
+      - awk
+      - sed
+      - lsof
+      - curl
+      - wget
+      - tail
+      - head
+      - less
+      - find
+      - ssh 
+      - kill
 
 
 
