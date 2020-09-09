@@ -136,4 +136,6 @@ Invert the damn diagram!
 - Cookies, sessions and it not being RESTful and why you should still do it: https://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulness 
 - Alternative roadmap, this kinda includes both: https://www.youtube.com/watch?v=IFM9hbapeA0&list=PLillGF-Rfqba3xeEvDzIcUCxwMlGiewfV&loop=0
 - Regex: https://www.regular-expressions.info/quickstart.html
+- All my flashcards: https://www.cram.com/dashboard-flashcards#flashcards
+- A lot of content for my PM interviews and other stuff in Onenote 
 
