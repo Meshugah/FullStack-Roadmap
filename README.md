@@ -66,7 +66,7 @@ Invert the damn diagram!
 
 ### OS and General Knowledge
 
-- OStep, skim this: https://drive.google.com/file/d/1iPD0JzZ5OSvIS03e_PkymYf4ySEeGjQX/view?usp=sharing
+- OStep, skim this: https://drive.google.com/file/d/1iPD0JzZ5OSvIS03e_PkymYf4ySEeGjQX/view?usp=sharing (you are on chapter 11)
     - How do OSes work? Virtualization, Concurrency and Persistence  :heavy_check_mark:
     - Process Management
       - Process API: Create, Destroy, Stop, Start, Wait, Status.
