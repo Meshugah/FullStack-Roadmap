@@ -110,6 +110,13 @@ Invert the damn diagram!
       - ssh 
       - kill
 
+### Learn a language
+Haha idk, JS isn't too hard to learn, maybe look for a course online
+
+
+### Relational databases
+MySQL: https://www.udemy.com/course/mysql-and-sql-from-beginner-to-advanced/learn/lecture/5050050#overview
+probably should learn Postgres at some point.
 
 
 ### Bonus
