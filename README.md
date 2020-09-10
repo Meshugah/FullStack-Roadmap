@@ -140,6 +140,7 @@ probably should learn Postgres at some point.
     - https://www.youtube.com/watch?v=2jqok-WgelI&loop=0 (use this for sessions)
     - Lookup refresh tokens and all that, extending token length https://stackoverflow.com/questions/26739167/jwt-json-web-token-automatic-prolongation-of-     expiration?rq=1
   - **Holy Grail** Distributed/ Load balanced servers and need to keep servicing Request with JWT(in English, if you have multiple servers, the server keeping track of the auth might not be the same server that has low load and will serve a future request. so you just share have a **shared secret**. The private key for the jwt). This apparently is called symmetric encryption. 
+  - Refresh tokens: https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/
 - Watch tech interviews: https://interviewing.io/recordings/
 - JS runtime environment: https://medium.com/@olinations/the-javascript-runtime-environment-d58fa2e60dd0
 - JS memory model: https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239#:~:text=For%20the%20purposes%20of%20this,in%20addition%20to%20function%20calls).&text=Now%2C%20the%20heap.,where%20non%2Dprimitives%20are%20stored.
