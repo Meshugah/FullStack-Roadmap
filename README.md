@@ -151,3 +151,7 @@ probably should learn Postgres at some point.
 - All my flashcards: https://www.cram.com/dashboard-flashcards#flashcards
 - A lot of content for my PM interviews and other stuff in Onenote 
 - Tf is a polyfill/ How do I get old browsers to run my code(ans, transpile for the new stuff, polyfills for classes : https://medium.com/hackernoon/polyfills-everything-you-ever-wanted-to-know-or-maybe-a-bit-less-7c8de164e423#.p1y2v1ujy
+- CORS: 2nd comment https://www.reddit.com/r/javascript/comments/8rn8ja/i_dont_understand_how_cors_works/
+  - only done by the browser, so postman/fetch all that works.
+  - Origin refers to the (i think at the website level, a different website) thing that is different from the endpoint. bleh.
+  - looks 
