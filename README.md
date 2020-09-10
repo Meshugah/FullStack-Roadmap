@@ -150,4 +150,4 @@ probably should learn Postgres at some point.
 - Regex: https://www.regular-expressions.info/quickstart.html
 - All my flashcards: https://www.cram.com/dashboard-flashcards#flashcards
 - A lot of content for my PM interviews and other stuff in Onenote 
-
+- Tf is a polyfill: https://medium.com/hackernoon/polyfills-everything-you-ever-wanted-to-know-or-maybe-a-bit-less-7c8de164e423#.p1y2v1ujy
