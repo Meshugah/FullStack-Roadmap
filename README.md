@@ -4,6 +4,10 @@
 
 > I'd recommend just searching for things you need here
 
+> Where I'm at now:
+> Frontend: HTML
+> Backend: OS
+
 # Backend:
 
 Invert the damn diagram!
