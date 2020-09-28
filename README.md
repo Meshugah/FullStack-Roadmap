@@ -155,3 +155,4 @@ probably should learn Postgres at some point.
   - only done by the browser, so postman/fetch all that works.
   - Origin refers to the (i think at the website level, a different website) thing that is different from the endpoint. bleh.
   - looks 
+- SASS: *Grail* Use SASS it's easy https://www.youtube.com/watch?v=Zz6eOVaaelI
