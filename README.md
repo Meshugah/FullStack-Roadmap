@@ -89,10 +89,34 @@ Invert the damn diagram!
         - wait() - let's the parent wait for the child process to finish(also provides determinism)
         - exec() - runs a different program using the same process
     - Threads and Concurrency
+      - 
       
     - Memory Management
+      - Heap
+        - malloc() stores in heap, free() releases it
+        - How can i not call free() when I run a short-lived program?
+          - Well, the OS gives you two abstract layers of the memory, some for the process AND some within each process. So for shorter-lived programs not calling free is okay because the OS frees the process and the heap was created in the second level of abstraction, the per process memory. 
+      - Segmentation 
+        - Storing Code, Stack and Heap in ways that allow minimal space wastage
+        - Paging 
+          - Storing data in pages
+        - Swap space
+          - Location of virtual memory save to swap pages 
+      - Page fault
+        - When a page is not available in virtual memeory it looks send a page fault or a page not available and fetches the page from the physical memory
+      - Pages are replaces as required using a page replacement policy
+      - Workloads of policies and their performance
+        - No locality
+        - 80-20 workload
+        - looping workload
+      - TLB
+        - provides the system with a small hardware cache of address translations
+      - Address translations
+        - Converts memory addresses to physical addresses
     - Interprocess Communication
+    
     - I/O Management
+    
     - POSIX? 
       - standards that ensure compatibility when moving between OSes
       - stdin, stdout, stderr and pipes: https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
