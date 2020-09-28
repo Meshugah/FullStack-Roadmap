@@ -156,3 +156,5 @@ probably should learn Postgres at some point.
   - Origin refers to the (i think at the website level, a different website) thing that is different from the endpoint. bleh.
   - looks 
 - SASS: *Grail* Use SASS it's easy https://www.youtube.com/watch?v=Zz6eOVaaelI
+  - Mixin: Just like functions, you could use a *mixin* to set the default properties for flexbox: display, justify-content, align-items @12:00
+    - Damn, it's so goooood. You can even pass it variables and set flex-direction dynamically if you want.
