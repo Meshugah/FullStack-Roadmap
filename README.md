@@ -70,7 +70,6 @@ Invert the damn diagram!
 - Responsive Design https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0  :heavy_check_mark:
 
 ### OS and General Knowledge < DO THIS!
-
 - OStep, skim this: https://drive.google.com/file/d/1iPD0JzZ5OSvIS03e_PkymYf4ySEeGjQX/view?usp=sharing (you are on chapter 11)
     - How do OSes work? Virtualization, Concurrency and Persistence  :heavy_check_mark:
     - Process Management
@@ -89,7 +88,6 @@ Invert the damn diagram!
         - wait() - let's the parent wait for the child process to finish(also provides determinism)
         - exec() - runs a different program using the same process
     - Threads and Concurrency
-      - 
       
     - Memory Management
       - Heap
