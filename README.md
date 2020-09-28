@@ -4,7 +4,7 @@
 
 > I'd recommend just searching for things you need here
 
-## Things to do:
+# Backend:
 
 Invert the damn diagram!
 
@@ -65,7 +65,7 @@ Invert the damn diagram!
   - **Grail** https://flexboxfroggy.com/ :heavy_check_mark:
 - Responsive Design https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0  :heavy_check_mark:
 
-### OS and General Knowledge
+### OS and General Knowledge < DO THIS!
 
 - OStep, skim this: https://drive.google.com/file/d/1iPD0JzZ5OSvIS03e_PkymYf4ySEeGjQX/view?usp=sharing (you are on chapter 11)
     - How do OSes work? Virtualization, Concurrency and Persistence  :heavy_check_mark:
@@ -112,7 +112,7 @@ Invert the damn diagram!
       - kill
 
 ### Learn a language
-Haha idk, JS isn't too hard to learn, maybe look for a course online
+Haha idk, JS isn't too hard to learn, maybe look for a course online for the viewers
 
 
 ### Relational databases
@@ -120,7 +120,44 @@ MySQL: https://www.udemy.com/course/mysql-and-sql-from-beginner-to-advanced/lear
 probably should learn Postgres at some point.
 
 
-### Bonus
+# FrontEnd
+
+### Internet :heavy_check_mark:
+
+
+### HTML
+Semantic HTML 
+- https://www.lifewire.com/why-use-semantic-html-3468271 *TODO*
+Forms and validation:
+- not sure what i don't know here
+Conventions and best practices: 
+- same^
+Accessibility: 
+- ?
+SEO Basics: 
+- ?
+
+### CSS
+Responsive design and media queries: https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0  *review*
+
+### JS
+Fetch api
+- Axios
+
+### Version Control :heavy_check_mark:
+
+### Web security
+- Not done much besides owasp, cors and https, do more of the latter two
+
+### CSS Preporcessor
+- Sass
+  -  https://www.youtube.com/watch?v=Zz6eOVaaelI :heavy_check_mark:
+  
+### Build Tools
+NONE
+
+
+# Bonus(Common to both)
 - AWS Security **grail** https://www.youtube.com/watch?v=-ObImxw1PmI
   - This thing actually went over internet gateways as well! and VPC, KMS, and IAM.
 - EPI: https://drive.google.com/file/d/1xtKQE5VLdY8AUsAJDKr-dAjLcEkhv6J1/view
