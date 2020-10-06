@@ -225,3 +225,4 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 - SASS: *Grail* Use SASS it's easy https://www.youtube.com/watch?v=Zz6eOVaaelI
   - Mixin: Just like functions, you could use a *mixin* to set the default properties for flexbox: display, justify-content, align-items @12:00
     - Damn, it's so goooood. You can even pass it variables and set flex-direction dynamically if you want.
+- Emmet: *Grail* Want to get better with code completion, this is how it's done!
