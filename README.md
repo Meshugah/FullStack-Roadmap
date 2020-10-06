@@ -226,3 +226,5 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
   - Mixin: Just like functions, you could use a *mixin* to set the default properties for flexbox: display, justify-content, align-items @12:00
     - Damn, it's so goooood. You can even pass it variables and set flex-direction dynamically if you want.
 - Emmet: *Grail* Want to get better with code completion, this is how it's done!
+- ESLint: npm i -D eslint eslint-config-prettier (more for syntax)
+- package-lock.json: for production releases. packages can be installed using npm ci and will result in exact version rather than ^***
