@@ -9,9 +9,6 @@
 > Backend: OS
 
 # Backend:
-
-Invert the damn diagram!
-
 ### Internet 
 - Internet https://www.youtube.com/watch?v=x3c1ih2NJEg :heavy_check_mark:
   - protocols:
@@ -184,6 +181,16 @@ NONE
 
 ### React
 FEM React https://btholt.github.io/complete-intro-to-react-v5/
+  - useEffect hook , need to declare dependencies or it will 'useEffect' every time render is called.
+  - dropdowns are great for custom hooks
+  - useEffect replaces the lifecycle methods
+  - general js, but if you get a map back that looks like :
+    ![destructure](destructure.png)
+
+  
+  you can get just the names from it by using destructuring:
+  const breedStrings = breeds.map(({name}) => name)
+  
 
 
 # Bonus(Common to both)
