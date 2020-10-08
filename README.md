@@ -196,6 +196,7 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
   - static getDerivedStateFromProps, takes in a set of props and gives you a new set of state. 
   - Need an event listener? use arrow functions and you won't need a bind
   - Modals are what popups that ask are you sure are called.
+    - Trap focus of a modal: https://tinloof.com/blog/how-to-create-an-accessible-react-modal/
 
 
 # Bonus(Common to both)
