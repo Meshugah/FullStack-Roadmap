@@ -194,6 +194,7 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
   - One-way data flow: children never cause parents problems, just like real life, amiright?
   - Arrow functions and this in component lifecycle.
   - static getDerivedStateFromProps, takes in a set of props and gives you a new set of state. 
+  - Need an event listener? use arrow functions and you won't need a bind
   
 
 
