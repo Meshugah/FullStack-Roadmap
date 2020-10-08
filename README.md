@@ -195,7 +195,7 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
   - Arrow functions and this in component lifecycle.
   - static getDerivedStateFromProps, takes in a set of props and gives you a new set of state. 
   - Need an event listener? use arrow functions and you won't need a bind
-  
+  - Modals are what popups that ask are you sure are called.
 
 
 # Bonus(Common to both)
