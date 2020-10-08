@@ -191,6 +191,8 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
   you can get just the names from it by using destructuring:
   const breedStrings = breeds.map(({name}) => name)
   
+  - One-way data flow: children never cause parents problems, just like real life, amiright?
+  
 
 
 # Bonus(Common to both)
@@ -235,3 +237,4 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 - Emmet: *Grail* Want to get better with code completion, this is how it's done!
 - ESLint: npm i -D eslint eslint-config-prettier (more for syntax)
 - package-lock.json: for production releases. packages can be installed using npm ci and will result in exact version rather than ^***
+
