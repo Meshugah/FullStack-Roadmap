@@ -197,7 +197,8 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
   - Need an event listener? use arrow functions and you won't need a bind
   - Modals are what popups that ask are you sure are called.
     - Trap focus of a modal: https://tinloof.com/blog/how-to-create-an-accessible-react-modal/
-  - **grail** All of the advanced topics here are siloed so you can just use what you need(redux, TS, testing):
+  - **grail** All of the advanced topics(16+) here are siloed so you can just use what you need(redux, TS, testing): https://btholt.github.io/complete-intro-to-react-v5/
+    - If you want to learn anything, download the parent repo from the master branch and each section uses that as a fresh start.
 
 
 # Bonus(Common to both)
