@@ -6,7 +6,7 @@
 > Big tip: on a mac you can use control + cmd + space to insert emojis ⛹🏽⛹⛹
 
 > Where I'm at now:
-> Frontend: HTML
+> Frontend: Web components
 > Backend: OS
 
 # Backend:
@@ -163,6 +163,7 @@ SEO Basics:
 
 ### CSS
 Responsive design and media queries: https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0  *review*
+FEM: CSS course and 
 
 ### JS
 Fetch api
@@ -171,16 +172,29 @@ Fetch api
 ### Version Control :heavy_check_mark:
 
 ### Web security
-- Not done much besides owasp, cors and https, do more of the latter two
+- Not done much besides owasp, cors and https, do more of the latter two(check out the guide from the backend section)
 
-### CSS Preporcessor
+### CSS Architecture
+- BEM
+  - need to find good material for this.
+
+### CSS Preprocessor
 - Sass
   -  https://www.youtube.com/watch?v=Zz6eOVaaelI :heavy_check_mark:
-  
-### Build Tools
-NONE
+  - Don't try and use it. CSS in is is so much more intuitive.
 
-### React
+### Build Tools
+#### Task Runners
+Npm scripts :heavy_check_mark:
+
+#### Module bundlers
+Parcel baby!
+
+#### Linters and formatters
+- Prettier plugin
+- eslint files or jetbrains plugin
+
+### Pick a Framework : React
 FEM React https://btholt.github.io/complete-intro-to-react-v5/
   - useEffect hook , need to declare dependencies or it will 'useEffect' every time render is called.
   - dropdowns are great for custom hooks
@@ -203,6 +217,13 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
    - Redux saga is for async use of redux
    - **grail** super useful break up of what react is and what it's not(as opposed to angular).: https://amp.reddit.com/r/webdev/comments/clghfx/angular_vs_react_which_would_you_choose_in_2019/
 
+
+#### State management
+- need to do the FEM Redux course
+- Context :heavy_check_mark:
+
+### Modern CSS
+- find a class on emotion
 
 # Bonus(Common to both)
 - AWS Security **grail** https://www.youtube.com/watch?v=-ObImxw1PmI
