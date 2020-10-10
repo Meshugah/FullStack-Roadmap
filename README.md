@@ -227,9 +227,7 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 
 # Bonus(Common to both)
 - How people are using lodash:
-   - "I don't use it for chain, clone, each, map, filter, or reduce.
-
-I still use it for at, has, chunk, groupBy, uniqBy, intersection, flatten, cloneDeep, debounce"
+   - "I don't use it for chain, clone, each, map, filter, or reduce. I still use it for at, has, chunk, groupBy, uniqBy, intersection, flatten, cloneDeep, debounce"
 - AWS Security **grail** https://www.youtube.com/watch?v=-ObImxw1PmI
   - This thing actually went over internet gateways as well! and VPC, KMS, and IAM.
 - EPI: https://drive.google.com/file/d/1xtKQE5VLdY8AUsAJDKr-dAjLcEkhv6J1/view
@@ -271,4 +269,9 @@ I still use it for at, has, chunk, groupBy, uniqBy, intersection, flatten, clone
 - Emmet: *Grail* Want to get better with code completion, this is how it's done!
 - ESLint: npm i -D eslint eslint-config-prettier (more for syntax)
 - package-lock.json: for production releases. packages can be installed using npm ci and will result in exact version rather than ^***
+- YDKJS **GRAIL** Kinda dry but here's a tip. Everything in the world is boring without context. Imagine trying to explain something you love that's just not interesting sounding to someone else. The difference is not that they are not interested. It's that they don't know enought about it. So if you want to teach someone about how great headphones are, tell them to play an instrument, play music, listen to it for years, play concerts, obsess about it, dream about making it better objectively and how better headphones make it easier for you to make better music becomes obvious. So how do you reproduce that you could method act and become the writer with enough information. I'm gonna try that.
+  - The three pillars
+    - Read this got scope and closures: https://dev.to/danvyle/javascript-fundamentals-101-scope-and-closures-352g#:~:text=A%20closure%20is%20the%20combination,created%2C%20at%20function%20creation%20time.
+
+
 
