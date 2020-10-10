@@ -176,7 +176,7 @@ Fetch api
 
 ### CSS Architecture
 - BEM
-  - need to find good material for this.
+  - v good: https://youtu.be/er1JEDuPbZQ
 
 ### CSS Preprocessor
 - Sass
