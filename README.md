@@ -226,6 +226,10 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 - find a class on emotion
 
 # Bonus(Common to both)
+- How people are using lodash:
+   - "I don't use it for chain, clone, each, map, filter, or reduce.
+
+I still use it for at, has, chunk, groupBy, uniqBy, intersection, flatten, cloneDeep, debounce"
 - AWS Security **grail** https://www.youtube.com/watch?v=-ObImxw1PmI
   - This thing actually went over internet gateways as well! and VPC, KMS, and IAM.
 - EPI: https://drive.google.com/file/d/1xtKQE5VLdY8AUsAJDKr-dAjLcEkhv6J1/view
