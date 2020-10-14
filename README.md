@@ -163,7 +163,13 @@ SEO Basics:
 
 ### CSS
 Responsive design and media queries: https://www.youtube.com/watch?v=fgOO9YUFlGI&list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G&index=9&loop=0  *review*
-FEM: CSS course and 
+FEM 1:
+  - Responsive Design:
+    - Flexible Grid Based Layout
+    - Media-Queries
+    - Images that resize
+  - Floats
+    - Hack for layout
 
 ### JS
 Fetch api
@@ -212,6 +218,7 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
   - Need an event listener? use arrow functions and you won't need a bind
   - Modals are what popups that ask are you sure are called.
     - Trap focus of a modal: https://tinloof.com/blog/how-to-create-an-accessible-react-modal/
+    - Oh, and i've got a pretty great modal that i've starred.
   - **grail** All of the advanced topics(16+) here are siloed so you can just use what you need(redux, TS, testing): https://btholt.github.io/complete-intro-to-react-v5/
     - If you want to learn anything, download the parent repo from the master branch and each section uses that as a fresh start.
    - Redux saga is for async use of redux
