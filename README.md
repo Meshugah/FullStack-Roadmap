@@ -170,6 +170,18 @@ FEM 1:
     - Images that resize
   - Floats
     - Hack for layout
+    - "The float property is used for positioning and formatting content e.g. let an image float left to the text in a container."
+  - box-sizing: border-box (uses the border box model that includes the width of the content, border and margin all in to the box.
+    - make everything inherit it:
+    *, 
+    *:before, 
+    *:after {
+     box-sizing: inherit;
+    }
+  - col-md-4?
+    - bootstrap syntax
+    - md: width of page is  >= 768 px
+    - 4: spans 4 of the twelve columns in the page
 
 ### JS
 Fetch api
