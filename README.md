@@ -245,7 +245,8 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 - find a class on emotion
 
 # Bonus(Common to both)
-- How people are using lodash:
+- **grail** How to setup a fullstack app on AWS(says MERN but i've used it for PERN ): https://jasonwatmore.com/post/2019/11/18/react-nodejs-on-aws-how-to-deploy-a-mern-stack-app-to-amazon-ec2
+- How people are using lodash in 2020:
    - "I don't use it for chain, clone, each, map, filter, or reduce. I still use it for at, has, chunk, groupBy, uniqBy, intersection, flatten, cloneDeep, debounce"
 - AWS Security **grail** https://www.youtube.com/watch?v=-ObImxw1PmI
   - This thing actually went over internet gateways as well! and VPC, KMS, and IAM.
