@@ -136,12 +136,16 @@
       - kill
 
 ### Learn a language
-Haha idk, JS isn't too hard to learn, maybe look for a course online for the viewers
+- Okay i just got the shaft in an interview for not knowing js well enought. Qs?: What are promises, Event loop, What really is node.js.
+- I'll post links from the bookmarks
 
 
 ### Relational databases
 MySQL: https://www.udemy.com/course/mysql-and-sql-from-beginner-to-advanced/learn/lecture/5050050#overview
-probably should learn Postgres at some point.
+- The freecodecamp course is good for postgres. 
+- Need to answer questions like what are relational databases and why use them.(ACID) 
+- Did you know mongo was eventually consistent
+- 
 
 
 # FrontEnd
