@@ -313,7 +313,7 @@ todo: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 - What is a higher-order function?
 todo: https://eloquentjavascript.net/05_higher_order.html
-Look for vid, you learn better with vids
+Essentially a function that takes in two functions as parameters and returns a combined function
 
   
 
