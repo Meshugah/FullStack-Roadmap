@@ -137,7 +137,7 @@
 
 ### Learn a language
 - Okay i just got the shaft in an interview for not knowing js well enought. Qs?: What are promises, Event loop, What really is node.js.
-- I'll post links from the bookmarks
+- I'll post links from the bookmarks.
 
 
 ### Relational databases
@@ -145,7 +145,7 @@ MySQL: https://www.udemy.com/course/mysql-and-sql-from-beginner-to-advanced/lear
 - The freecodecamp course is good for postgres. 
 - Need to answer questions like what are relational databases and why use them.(ACID) 
 - Did you know mongo was eventually consistent
-- 
+
 
 
 # FrontEnd
@@ -251,32 +251,97 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 
 # Interview Questions:
 ## JS
-- 10 i should check out sometime
+- 10 points i should check out sometime:
   https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
+  
+- Essential JS interview questions
+  https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
 
 - What is a javascript?
+  A single-threaded non-blocking I/O, Concurrent language. (concurrent meaning able to **run** multiple process at the same time as opposed to parallel that allows the **starting** of two proceesses at the same time. k, so what's the IO part, just the requests being the output and their responses being the input. Single threaded? we can dive into the event loop and how all of that is handled.
+  
 
 - What is the event loop?
-
-  
+  Part of the engine but control over it is give to the runtime as well.  
   
 - What's the difference between the JS runtime and engine?
-A JS program must do two things
+  A JS program must do two things:
 
-parse your code and convert it to runnable commands
-provide some objects to javascript so that it can interact with the outside world.
-The first part is called Engine and the second is Runtime.
+   - parse your code and convert it to runnable commands
+   - provide some objects to javascript so that it can interact with the outside world.
+  The first part is called Engine and the second is Runtime.
 
-For example, the Chrome Browser and node.js use the same Engine - V8, but their Runtimes are different: in Chrome you have the window, DOM objects etc, while node gives you require, Buffers and processes.
+  For example, the Chrome Browser and node.js use the same Engine - V8, but their Runtimes are different: in Chrome you have the window, DOM objects etc, while node gives you require, Buffers and processes.
 
 - What is asynchronous programming?
   Synchronous programming is a program that blocks for long processes like disk IO and network requests. Au contraire, A-synchronous programs do not wait, they pass the, otherwise blocking, sections of the code on to the callstack where they are let to run to completion if they can using the engine, and if not they are passed to web APIs provided by the Runtime(think DOM in the front end and Require in the backend). On completion they can't just go straight back to the call stack so they are moved to a message queue called a task/callback queue. This then pushes the completed callback over to the call stack where it finally get's to run.
 ![EventLoop](Eloop.png)
+
+- Can you name two JS paradigms?
+  Javascript allows you to program procedurally(think like C) with OOP if you chose to. Also functionally. The OOP is supported by prototypal inheritance.
+  Prototypical OOP in JS: https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
+  Functional programming in JS: https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
   
+- Class inheritance vs prototypical inheritance?
+https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
+
+  You essentially get an object and thus can just the parts of the object that you need and not have access to everything else. With Class inheritance you *always get the entire class delegation hierarchy*. This means sometimes you might want just the banana but might get the gorilla holding it and the whole jungle with it too. 
+  - There's three types that **todo** don't know. Need to find out what mixins and prototypes are:
+    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+    - https://javascript.info/mixins
+  
+  - Is classical inheritance every okay?
+    A single level is sometimes OK, from a framework base-class such as React.Component.
+
+- What are two-way data binding and one-way data flow, and how are they different?
+
+- What does “favor object composition over class inheritance” mean?
+  You essentially avoid all the weaknesses of OOP
+    - The weak base class problem
+    - Avoid creating a class hierarchy
+
+- What tings do you get with a functional programming language?
+  first-class functions, Closures, Higher-order functions
+
+
+
+- Wtf is a Closure?
+todo https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
+https://www.youtube.com/watch?v=3a0I8ICR1Vg
+todo: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+
+- What is a higher-order function?
+todo: https://eloquentjavascript.net/05_higher_order.html
+Look for vid, you learn better with vids
+
+  
+
+- What is a first-class function?
+  Apparently when you can pass a function into another function it's then called a first class function. Essentially they inherit from JS's Object and thus can be passed around like one.
+
+- How is lambda calculus related to functional programming? Does it have anything to do with lambda calculus? ( Church as opposed to Turing baybee).
+Functional programming is heavily based on lambda calculus. Func. prog. uses pure functions and thus avoid side-effects. A lambda function isn't really related, it's just a function with no name.
+
+- What is a pure-function?
+  They are all about mapping inputs to outputs. Get that? *A fixed input always returns a fixed output*. So there's no shared state and thus they can be used to avoid tons of bugs. Pure
+
+- Pure functions don't cause any side effects? what's a Side effects?
+  Side effects just mean that running the function will not affect the state outside the function.
+  
+
+
+
+- Okay I really really want to do anything in my power to understand functional programming, how do? 
+https://softwareengineering.stackexchange.com/questions/130722/what-is-the-difference-between-a-function-and-a-lambda
+
+Turing-Church and their relation and their work turing into the two paradigms of computing we have today still get's me ~~hard~~ excited to this day. 
 
 
 ## Fem
 https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.html
+
+
 
 
 # Bonus(Common to both)
