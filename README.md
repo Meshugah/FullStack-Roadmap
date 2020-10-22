@@ -294,6 +294,8 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-d
     A single level is sometimes OK, from a framework base-class such as React.Component.
 
 - What are two-way data binding and one-way data flow, and how are they different?
+ - two-way data binding is essentially the ui mapping the model data, in react, the state and vice versa.
+ - one way data flow references the fact that the model is the single source of truth and all changes in the ui head towards it.
 
 - What does “favor object composition over class inheritance” mean?
   You essentially avoid all the weaknesses of OOP
