@@ -249,6 +249,36 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 - find a class on emotion, FEM has one
 
 
+# Interview Questions:
+## JS
+- 10 i should check out sometime
+  https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
+
+- What is a javascript?
+
+- What is the event loop?
+
+  
+  
+- What's the difference between the JS runtime and engine?
+A JS program must do two things
+
+parse your code and convert it to runnable commands
+provide some objects to javascript so that it can interact with the outside world.
+The first part is called Engine and the second is Runtime.
+
+For example, the Chrome Browser and node.js use the same Engine - V8, but their Runtimes are different: in Chrome you have the window, DOM objects etc, while node gives you require, Buffers and processes.
+
+- What is asynchronous programming?
+  Synchronous programming is a program that blocks for long processes like disk IO and network requests. Au contraire, A-synchronous programs do not wait, they pass the, otherwise blocking, sections of the code on to the callstack where they are let to run to completion if they can using the engine, and if not they are passed to web APIs provided by the Runtime(think DOM in the front end and Require in the backend). On completion they can't just go straight back to the call stack so they are moved to a message queue called a task/callback queue. This then pushes the completed callback over to the call stack where it finally get's to run.
+![EventLoop](Eloop.png)
+  
+
+
+## Fem
+https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.html
+
+
 # Bonus(Common to both)
 - SOA: Service oriented architecture, different from Microservices with regard to scope; SOA at the enterprise level and microservices at the application level.
 - **grail** How to setup a fullstack app on AWS(says MERN but i've used it for PERN ): https://jasonwatmore.com/post/2019/11/18/react-nodejs-on-aws-how-to-deploy-a-mern-stack-app-to-amazon-ec2
