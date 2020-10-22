@@ -246,9 +246,11 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 - Context :heavy_check_mark:
 
 ### Modern CSS
-- find a class on emotion
+- find a class on emotion, FEM has one
+
 
 # Bonus(Common to both)
+- SOA: Service oriented architecture, different from Microservices with regard to scope; SOA at the enterprise level and microservices at the application level.
 - **grail** How to setup a fullstack app on AWS(says MERN but i've used it for PERN ): https://jasonwatmore.com/post/2019/11/18/react-nodejs-on-aws-how-to-deploy-a-mern-stack-app-to-amazon-ec2
 - How people are using lodash in 2020:
    - "I don't use it for chain, clone, each, map, filter, or reduce. I still use it for at, has, chunk, groupBy, uniqBy, intersection, flatten, cloneDeep, debounce"
