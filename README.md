@@ -303,11 +303,12 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-d
 - What tings do you get with a functional programming language?
   first-class functions, Closures, Higher-order functions
 
-
+- What is a promise?
+Todo: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 
 - Wtf is a Closure?
 Can be used to create function factories: https://amp.reddit.com/r/learnjavascript/comments/cgumqm/i_understand_how_closures_work_but_i_dont/
-todo https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
+Can be used to create encapsulation: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
 https://www.youtube.com/watch?v=3a0I8ICR1Vg
 todo: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
