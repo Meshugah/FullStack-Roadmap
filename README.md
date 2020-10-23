@@ -260,6 +260,9 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 - What is a javascript?
   A single-threaded non-blocking I/O, Concurrent language. (concurrent meaning able to **run** multiple process at the same time as opposed to parallel that allows the **starting** of two proceesses at the same time. k, so what's the IO part, just the requests being the output and their responses being the input. Single threaded? we can dive into the event loop and how all of that is handled.
   
+- What is lazy evaluation?
+  Calling a function using FP's first order functions and closure's we can create a lazily evaluated function that runs only as required. This is useful for functions that are super heavy and so just running them at the time they are needed is a good idea rather than starting them early. https://www.codementor.io/@agustinchiappeberrini/lazy-evaluation-and-javascript-a5m7g8gs3. If you run the function twice do you need to actually run it twice. No cause memoization. 
+  
 
 - What is the event loop?
   Part of the engine but control over it is give to the runtime as well.  
