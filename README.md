@@ -309,17 +309,116 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-d
 Todo: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 
 - Wtf is a Closure?
-Can be used to create function factories: https://amp.reddit.com/r/learnjavascript/comments/cgumqm/i_understand_how_closures_work_but_i_dont/
-Can be used to create encapsulation: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
-https://www.youtube.com/watch?v=3a0I8ICR1Vg
-todo: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+  - So in js, functions form closures. So when you create a function, it stores the entire lexical scope along with the function itself. This is pretty rad cause you can do this:
+    function init() {
+      const name='Mozilla';
+      function displayName() {
+          console.log(name);
+      }
+      return displayName;
+  }
+
+
+  const functionVal = init();
+  functionVal(); // this will actually printout 'Mozilla' :O
+  
+  - K, so it can also be used to create a function factory:
+      function makeBirthday(name) { //wow this is sad
+        return function() {
+          console.log("Happy Birthday" + name)        
+      }
+      
+      makeBirthday("Vignesh")
+  
+    but what's way cooler is using it to create private methods
+    var counter = (function () {
+      var privateCounter = 0;
+      function changeBy(val) {
+        privateCounter += val
+      }
+      
+      return{
+        increment: function() {
+          changeBy(1)
+        },
+        decrement: function() {
+          changeBy(-1)
+        },
+        value: function {
+          return privateCounter;
+        }
+      }
+    
+    })();
+    
+    console.log(counter.value()); // 0
+    
+    counter.increment();
+    console.log(count.value()); // 1
+    
+    
+   You can use closure scope chains like:
+       var e = 10;
+    function sum(a){
+      return function(b){
+        return function(c){
+          // outer functions scope
+          return function(d){
+            // local scope
+            return a + b + c + d + e;
+          }
+        }
+      }
+    }
+    
+    to require values to be put in in order and not return anything unless they are there.
+    
+  
+  - Docs:
+      - Can be used to create function factories: https://amp.reddit.com/r/learnjavascript/comments/cgumqm/i_understand_how_closures_work_but_i_dont/
+      - Can be used to create encapsulation: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
+      - https://www.youtube.com/watch?v=3a0I8ICR1Vg
+      - todo: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 
 - What is a higher-order function?
 todo: https://eloquentjavascript.net/05_higher_order.html
 Essentially a function that takes in two functions as parameters and returns a combined function
 
+- What is a promise?
+  - A promise is a returned object that you attach a callback to to get the response of an asynchronous operation. It's different from a callback because it gives you guarantees of responding with either success or failure. 
+  - Did you know the thing( the function lol ) that you pass into setTimeout is a callback, and shitty old APIs might not already return promises. If you instead wrap the two weird things in a promise like const wait = new Promise(setTimeout(doSomething, 1000)). You can just run wait and should probably only do that to deal with the code. 
+  - K so that syntax was off, it's actually like this const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+  - Always return results, ms => new Pro... is short for function (ms) { returns new Pro... }
+  - So what is a promise?
+    ~~It's a callback that is used to wrap another callback. I honeeestly don't know okkekekke. Let me read callbacks and see if I get it. if not the medium.~~
+    *So a promise is an object wrapper for a callback. It gives you guarantees of completion and can be chained.* 
+
+
+- What is a callback?
+  - A function that is passed into a function and then called by the function that did the passing in(the outer function).
+  A shitty but i guess kind of clear example of how annoying callbacks are:
+ 
+ function greeting(name) {
+  alert('Hello ' + name);
+}
+
+function processUserInput(callback) {
+  var name = prompt('Please enter your name.');
+  callback(name);
+}
+
+processUserInput(greeting);
+
+ - K so how is this tied into what a promise is. So a promise wraps all of this in a callback and is an object that represent it. so by doing so you can just call the parent Obect and say .then and it will essentially guarantee the nastiness that is callbacks is done(success or not). Ew. But i see why promises are so loved. Because they give you an object interface that can be passed around a lot easier than callbacks.
+
+
+- What is prototypal inheritance?
+
   
+- What did you learn from the two pillars?
+
+
 
 - What is a first-class function?
   Apparently when you can pass a function into another function it's then called a first class function. Essentially they inherit from JS's Object and thus can be passed around like one.
