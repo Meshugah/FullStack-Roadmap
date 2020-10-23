@@ -427,7 +427,7 @@ processUserInput(greeting);
 Functional programming is heavily based on lambda calculus. Func. prog. uses pure functions and thus avoid side-effects. A lambda function isn't really related, it's just a function with no name.
 
 - What is a pure-function?
-  They are all about mapping inputs to outputs. Get that? *A fixed input always returns a fixed output*. So there's no shared state and thus they can be used to avoid tons of bugs. Pure
+  They are all about mapping inputs to outputs. Get that? *A fixed input always returns a fixed output*. So there's no shared state and thus they can be used to avoid tons of bugs. some examples are map, reverse, find, maybe a custom forloop fp.
 
 - Pure functions don't cause any side effects? what's a Side effects?
   Side effects just mean that running the function will not affect the state outside the function.
