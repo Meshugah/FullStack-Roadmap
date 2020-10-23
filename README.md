@@ -435,7 +435,8 @@ Functional programming is heavily based on lambda calculus. Func. prog. uses pur
 - Pure functions don't cause any side effects? what's a Side effects?
   Side effects just mean that running the function will not affect the state outside the function.
   
-
+- How does a client work with multiple servers?
+  Well you use a private key to generate a jwt with your auth and then verify it with a public key available to all your servers. 
 
 
 - Okay I really really want to do anything in my power to understand functional programming, how do? 
