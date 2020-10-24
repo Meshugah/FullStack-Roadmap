@@ -417,10 +417,9 @@ processUserInput(greeting);
 
 
 - What is prototypal inheritance?
+  Inheritance using the built in prototype object in JS rather than classes because of thing like the weak base class problema and the banana problem(the whole gorilla)
 
-  
-- What did you learn from the two pillars?
-
+ 
 
 
 - What is a first-class function?
