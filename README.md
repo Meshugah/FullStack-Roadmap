@@ -415,12 +415,32 @@ processUserInput(greeting);
 
  - K so how is this tied into what a promise is. So a promise wraps all of this in a callback and is an object that represent it. so by doing so you can just call the parent Obect and say .then and it will essentially guarantee the nastiness that is callbacks is done(success or not). Ew. But i see why promises are so loved. Because they give you an object interface that can be passed around a lot easier than callbacks.
 
+- What is lazy eval?
+https://www.codementor.io/@agustinchiappeberrini/lazy-evaluation-and-javascript-a5m7g8gs3
+
 
 - What is prototypal inheritance?
   Inheritance using the built in prototype object in JS rather than classes because of thing like the weak base class problema and the banana problem(the whole gorilla)
 
- 
+- Where do you store a JWT on the front end?
+  in http-only cookies so that they are safe from XSS. They can be set by the server by sending a Set-Cookie header. A 'Secure' and 'Http' flag can also be made necessary so that they prevent Man in the middle attacks and XSS respectively. 
+  
+https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+  
+- What did you learn from the two pillars?
+  - FP and it's uses, higher order functions being used to take two functions together and combine them, closure used to encapsulate and create contract factories, Lazy loading that is enabled by closures and first class functions together allows you to run an expensive function only when it is needed and cache it for later usage. First order functions which enable functions to be passed into other functions as objects.
+  - Prototypical inheritance
 
+- How does TLS work?
+https://medium.com/iocscan/transport-layer-security-tls-ssl-8e02b6d1d648
+Client says hello(and it's available encryption ciphers), server responds with it's certificate(and chooses the most secure cypher available), client verifies the certificate with certificate validating authority. Client and server agree on keys and exchange keys. Http request is encrypted with symmetric key. response is encrypted with symmetric keys. 
+
+
+- How does Http work? Over tls in a client-server fashion.
+
+- Cookies vs Local storage?
+Cookies are essentially used only by the server side and local storage is only used by the front end.
 
 - What is a first-class function?
   Apparently when you can pass a function into another function it's then called a first class function. Essentially they inherit from JS's Object and thus can be passed around like one.
@@ -434,8 +454,7 @@ Functional programming is heavily based on lambda calculus. Func. prog. uses pur
 - Pure functions don't cause any side effects? what's a Side effects?
   Side effects just mean that running the function will not affect the state outside the function.
   
-- How does a client work with multiple servers?
-  Well you use a private key to generate a jwt with your auth and then verify it with a public key available to all your servers. 
+
 
 
 - Okay I really really want to do anything in my power to understand functional programming, how do? 
@@ -493,6 +512,8 @@ https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.h
 - SASS: *Grail* Use SASS it's easy https://www.youtube.com/watch?v=Zz6eOVaaelI
   - Mixin: Just like functions, you could use a *mixin* to set the default properties for flexbox: display, justify-content, align-items @12:00
     - Damn, it's so goooood. You can even pass it variables and set flex-direction dynamically if you want.
+    - what a mixin actually does is take methods from a class and assign them to the current class.
+- Symmetric key v Asymmetric: basically asymetric has a private key and a public key. 
 - Emmet: *Grail* Want to get better with code completion, this is how it's done!
 - ESLint: npm i -D eslint eslint-config-prettier (more for syntax)
 - package-lock.json: for production releases. packages can be installed using npm ci and will result in exact version rather than ^***
