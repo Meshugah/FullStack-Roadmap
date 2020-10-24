@@ -420,6 +420,7 @@ https://www.codementor.io/@agustinchiappeberrini/lazy-evaluation-and-javascript-
 
 
 - What is prototypal inheritance?
+  Inheritance using the built in prototype object in JS rather than classes because of thing like the weak base class problema and the banana problem(the whole gorilla)
 
 - Where do you store a JWT on the front end?
   in http-only cookies so that they are safe from XSS. They can be set by the server by sending a Set-Cookie header. A 'Secure' and 'Http' flag can also be made necessary so that they prevent Man in the middle attacks and XSS respectively. 
