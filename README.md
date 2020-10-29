@@ -470,6 +470,9 @@ https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.h
 
 
 # Bonus(Common to both)
+- Postgres to Mongo or vice versa?
+  - https://docs.mongodb.com/manual/reference/sql-aggregation-comparison/
+  - https://docs.mongodb.com/manual/reference/sql-comparison/
 - SOA: Service oriented architecture, different from Microservices with regard to scope; SOA at the enterprise level and microservices at the application level.
 - **grail** How to setup a fullstack app on AWS(says MERN but i've used it for PERN ): https://jasonwatmore.com/post/2019/11/18/react-nodejs-on-aws-how-to-deploy-a-mern-stack-app-to-amazon-ec2
 - How people are using lodash in 2020:
