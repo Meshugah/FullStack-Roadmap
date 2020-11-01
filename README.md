@@ -216,7 +216,8 @@ Parcel baby!
 - Prettier plugin
 - eslint files or jetbrains plugin
 
-### Pick a Framework : React
+### Pick a Framework : 
+#### React
 FEM React https://btholt.github.io/complete-intro-to-react-v5/
   - useEffect hook , need to declare dependencies or it will 'useEffect' every time render is called.
   - dropdowns are great for custom hooks
@@ -240,6 +241,8 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
    - Redux saga is for async use of redux
    - **grail** super useful break up of what react is and what it's not(as opposed to angular).: https://amp.reddit.com/r/webdev/comments/clghfx/angular_vs_react_which_would_you_choose_in_2019/
 
+#### Vue
+Vshow v vIf: Vif mounts and unmounts components which can be expensive, so it's good for large components with less toggles. V show on the other hand is for lots of toggles/ smaller components.
 
 #### State management
 - need to do the FEM Redux course
