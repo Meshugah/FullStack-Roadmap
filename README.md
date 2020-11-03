@@ -244,6 +244,10 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
 #### Vue
 Vshow v vIf: Vif mounts and unmounts components which can be expensive, so it's good for large components with less toggles. V show on the other hand is for lots of toggles/ smaller components.
 
+Slots are essentially like props except you can pass in tags too
+
+using props with the : (short for v-bind) will let you pass in state and without will just pass in the literal in the component tag
+
 #### State management
 - need to do the FEM Redux course
 - Context :heavy_check_mark:
