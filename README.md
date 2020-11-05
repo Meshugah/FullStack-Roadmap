@@ -242,6 +242,10 @@ FEM React https://btholt.github.io/complete-intro-to-react-v5/
    - **grail** super useful break up of what react is and what it's not(as opposed to angular).: https://amp.reddit.com/r/webdev/comments/clghfx/angular_vs_react_which_would_you_choose_in_2019/
 
 #### Vue
+Nuxt: essentially Next for Vue, Gives you SSR and code-splitting(basically treeshaking for your library)
+
+How to learn: Just go through the Vue docs. 
+
 Vshow v vIf: Vif mounts and unmounts components which can be expensive, so it's good for large components with less toggles. V show on the other hand is for lots of toggles/ smaller components.
 
 Slots are essentially like props except you can pass in tags too
@@ -254,6 +258,9 @@ using props with the : (short for v-bind) will let you pass in state and without
 
 ### Modern CSS
 - find a class on emotion, FEM has one
+
+### Composition API
+- Essentially react's hooks
 
 
 # Interview Questions:
