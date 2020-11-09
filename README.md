@@ -538,5 +538,5 @@ https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.h
   - The three pillars
     - Read this got scope and closures: https://dev.to/danvyle/javascript-fundamentals-101-scope-and-closures-352g#:~:text=A%20closure%20is%20the%20combination,created%2C%20at%20function%20creation%20time.
 
-
-
+- Should I be using Microservices: https://www.reddit.com/r/programming/comments/d2x8nn/learning_the_hard_way_microservices/
+   - Conway's Law
