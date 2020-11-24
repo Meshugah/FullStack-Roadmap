@@ -540,3 +540,5 @@ https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.h
 
 - Should I be using Microservices: https://www.reddit.com/r/programming/comments/d2x8nn/learning_the_hard_way_microservices/
    - Conway's Law
+   
+-   Serialization is to provide a convenient form for data to be passed from one place to another. Use JSON.stringify to turn a JSON object(something not super convenient to transmit into a string with no spaces. And receive it and used JSON.parse to turn it back into a JSON object.
