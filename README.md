@@ -402,6 +402,7 @@ Todo: https://medium.com/javascript-scene/master-the-javascript-interview-what-i
 todo: https://eloquentjavascript.net/05_higher_order.html
 Essentially a function that takes in two functions as parameters and returns a combined function
 
+- move to correct location: TCP /(over) IP: https://www.cloudflare.com/en-in/learning/ddos/glossary/tcp-ip/
 - What is a promise?
   - A promise is a returned object that you attach a callback to to get the response of an asynchronous operation. It's different from a callback because it gives you guarantees of responding with either success or failure. 
   - Did you know the thing( the function lol ) that you pass into setTimeout is a callback, and shitty old APIs might not already return promises. If you instead wrap the two weird things in a promise like const wait = new Promise(setTimeout(doSomething, 1000)). You can just run wait and should probably only do that to deal with the code. 
