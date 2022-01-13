@@ -547,3 +547,6 @@ https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.h
 
 # Other niceties:
 - Keeping SSH from disconnecting: https://superuser.com/questions/699676/how-to-prevent-ssh-from-disconnecting-if-its-been-idle-for-a-while
+- nginx conf check: nginx -t -c /etc/nginx/nginx.conf
+- http extension
+
