@@ -543,3 +543,7 @@ https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.h
    - Conway's Law
    
 -   Serialization is to provide a convenient form for data to be passed from one place to another. Use JSON.stringify to turn a JSON object(something not super convenient to transmit into a string with no spaces. And receive it and used JSON.parse to turn it back into a JSON object.
+
+
+# Other niceties:
+- Keeping SSH from disconnecting: https://superuser.com/questions/699676/how-to-prevent-ssh-from-disconnecting-if-its-been-idle-for-a-while
