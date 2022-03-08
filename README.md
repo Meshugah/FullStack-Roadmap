@@ -543,6 +543,7 @@ https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.h
    - Conway's Law
    
 -   Serialization is to provide a convenient form for data to be passed from one place to another. Use JSON.stringify to turn a JSON object(something not super convenient to transmit into a string with no spaces. And receive it and used JSON.parse to turn it back into a JSON object.
+- What's a `PATH` variable? What's an Environment variable? do I need to know this? What?: Hold on my friend, `PATH` is just a type of environment variable. Environment variables are just a list of (pun) paths, or directories, that the OS looks through when you run a terminal command. running `git` runs through the executable files in these directories and **stops at the first one** .So it's important to remember that the OS scans the file you store all your paths in **left to right(and returns the first one)**. 😊
 
 
 # Other niceties:
